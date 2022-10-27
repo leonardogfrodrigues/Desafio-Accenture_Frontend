@@ -1,14 +1,34 @@
-# Desafio-Accenture_Frontend
+# Desafio Accenture - Frontend
+Leonardo G. F. Rodrigues 
 
-Frontend de uma tela utilizando Node.JS, HTML, CSS, JS e Bootstrap.
+leonardogfrodrigues@gmail.com
 
-## Para executar a aplicação:
+### :memo: Descrição
+A aplicação consiste em uma tela que contém informações gráficas resultantes de uma tabela de dados, tais quais são: Data, Demanda, Capacidade, Atendimento Planejado, Atendimento Realizado e Desvio. 
 
-### Com o Node instalado em sua máquina, execute: 
-- npm install -s express
+O gráfico mostra a diferença entre Capacidade e Atendimento Realizado de acordo com a data (definida em mês e ano).
 
-- npm install -s bootstrap
+__________________
 
-- npm install -g nodemon
+### :computer: Instalação de dependências necessárias 
 
-- nodemon ./server.js
+```
+npm install -s express
+```
+```
+npm install -s bootstrap
+```
+```
+npm install -g nodemon
+```
+__________________
+### :gear: Execução
+Posteriormente, basta executar o Dockerfile da aplicação com os comandos:
+
+```
+docker build -t dashboard-front .
+```
+
+```
+docker run -p 4004:4004 -it dashboard-front
+```
