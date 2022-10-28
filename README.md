@@ -12,6 +12,7 @@ O projeto foi feito utilizando Node.Js, HTML, CSS, JS e Bootstrap.
 __________________
 
 ### :computer: Instalação de dependências necessárias 
+Antes de executar os comandos deste e do próximo tópico é preciso ter o Node 16 e o Docker instalados em sua máquina.
 
 ```
 npm install -s express
